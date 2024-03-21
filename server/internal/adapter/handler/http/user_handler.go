@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"../../../core/service"
+	"github.com/yokyann/PC3R_tetrio/server/internal/core/service"
 )
 
 func FetchUsernameHandler(w http.ResponseWriter, r *http.Request) {
