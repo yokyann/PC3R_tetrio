@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/yokyann/PC3R_tetrio/server/internal/adapter/handler/"
+	"github.com/yokyann/PC3R_tetrio/server/internal/adapter/handler"
 )
 
 func main() {
