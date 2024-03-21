@@ -9,7 +9,7 @@ import (
 
 func FetchUsernameHandler(w http.ResponseWriter, r *http.Request) {
 	// Récupérer le nom d'utilisateur de la requête
-	username := r.URL.Query().Get("username")
+	username := r.URL.Query().Get("yokshi")
 
 	// Appeler la fonction de service pour récupérer le nom d'utilisateur
 	fetchedUsername, err := service.FetchUsername(username)
