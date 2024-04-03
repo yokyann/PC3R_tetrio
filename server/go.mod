@@ -1,4 +1,4 @@
-module github.com/farimarwat/go-books
+module github.com/yokyann/PC3R_tetrios
 
 go 1.20
 
