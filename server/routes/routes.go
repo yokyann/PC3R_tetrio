@@ -20,7 +20,7 @@ func ListUsers(c *gin.Context) {
 
 func CreateUser(c *gin.Context) {
 	var user User
-	err := c.BindJSON(&book)
+	err := c.BindJSON(&user)
 	if err != nil {
 		c.IndentedJSON(http.StatusBadRequest, gin.H{"message": "Bad request"})
 		return
